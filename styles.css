@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #fff;
+    color: #333;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #333 3px solid;
+}
+
+header a {
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .namatoko {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.awalan {
+    background: url('tokosepatu.jpeg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    text-align: center;
+    padding-top: 220px;
+    font-size: larger;
+}
+
+.awalan .tombol {
+    background: #e0e0e0;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.unggulan {
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.unggulan h2 {
+    margin-bottom: 20px;
+}
+
+.grid-unggulan {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-unggulan {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-unggulan img {
+    width: 100%;
+    height: auto;
+}
+
+.item-unggulan h3 {
+    margin: 10px 0;
+}
+
+.item-unggulan p {
+    font-size: 16px;
+    color: #1e6982;
+}
+
+.item-unggulan .tombol {
+    display: block;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer .social-media {
+    margin: 10px 0;
+}
+
+footer .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 25px;
+    height: 25px;
+}
+
+.awalan-tentang {
+    background: #fff url('tokosepatu.jpeg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: larger;
+}
+
+.tentang {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.tentang h3 {
+    margin-bottom: 20px;
+}
+
+.tentang p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.grid-owner {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.owner {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.owner img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.owner h4 {
+    margin-bottom: 10px;
+}
+
+.owner p {
+    font-size: 14px;
+    color: #777;
+}
+
+.produk {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.grid-produk {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-produk {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    width: 23%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-produk img {
+    width: 100%;
+    height: auto;
+}
+
+.item-produk h3 {
+    margin: 10px 0;
+}
+
+.item-produk p {
+    font-size: 18px;
+    color: #1e6982;
+}
+
+.item-produk .tombol {
+    display: block;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.kontak {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.form-kontak {
+    width: 50%;
+    margin: auto;
+}
+
+.form-kontak form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-kontak label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-kontak input,
+.form-kontak textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-kontak .tombol {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.info {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .form-kontak {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-kontak {
+        width: 100%;
+    }
+}
+
